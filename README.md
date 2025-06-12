@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Teacher Portfolio - Next.js
 
-## Getting Started
+Bienvenido al repositorio del portafolio profesional desarrollado para una profesora de inglés. Este proyecto busca ofrecer una presencia online moderna, elegante y funcional, centrada en destacar sus servicios educativos, blog de enseñanza y filosofía docente.
 
-First, run the development server:
+## 🚀 Tecnologías utilizadas
+
+- **Next.js 14** — Framework React para aplicaciones web modernas y optimizadas.
+- **Tailwind CSS** — Utilidad para estilos rápidos y responsivos.
+- **TypeScript** — Tipado estático para mayor robustez en el desarrollo.
+- **Vercel** — Plataforma para el despliegue continuo y gratuito.
+
+## 🎯 Funcionalidades principales
+
+- Página de bienvenida clara y atractiva.
+- Sección de servicios filtrables por categoría.
+- Integración con blog educativo.
+- Diseño 100% responsive y accesible.
+- Preparado para SEO y rendimiento web.
+
+## 📂 Estructura del proyecto
+/
+├── app/ # Estructura de rutas con Next.js App Router
+├── components/
+│ ├── ui/ # Componentes reutilizables (botones, tarjetas, etc.)
+│ └── cliente/ # Componentes específicos para secciones del cliente
+├── public/ # Recursos estáticos
+├── styles/ # Archivos CSS globales
+├── data/ # Datos simulados (servicios, categorías, etc.)
+└── README.md
+
+
+## 📦 Instalación local
+
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
 ```bash
+git clone https://github.com/nishikyr/teacher-portfolio-nextjs.git
+cd teacher-portfolio-nextjs
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Luego abre tu navegador y ve a http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 Despliegue
+El proyecto está desplegado en Vercel, lo cual permite actualizaciones rápidas y una experiencia de usuario fluida.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📸 Capturas (opcional)
+Aquí puedes añadir capturas de pantalla del sitio, si lo deseas.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👩‍🏫 Sobre el proyecto
+Este portafolio fue desarrollado como parte de un encargo freelance para una profesora de inglés con una fuerte presencia online. El diseño refleja su enfoque educativo, profesionalismo y cercanía con sus estudiantes.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📬 Contacto
+¿Interesado/a en un portafolio similar?
+Contáctame vía LinkedIn o a través de mi email personal.
