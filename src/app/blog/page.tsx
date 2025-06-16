@@ -1,11 +1,15 @@
 'use client';
-import BlogHero from "@/components/blogComponents/BlogHero";
+
+import BlogHeroSection from "@/components/blogComponents/BlogHeroSection";
+import BlogListSection from "@/components/blogComponents/BlogListSection";
+
 
 export default function BlogPage() {
   return (
     <>
-      <BlogHero />
+      <BlogHeroSection />
       {/* Aquí más adelante irán los artículos */}
+      <BlogListSection />
     </>
   )
 }

@@ -1,7 +1,7 @@
 'use client';
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import EloisaImg from '../../public/Eloisa.jpg'; // Asegúrate de que la ruta sea correcta
+import EloisaImg from '../../public/Eloisa2.jpg';
 import ServicesSection from "@/components/homeComponents/ServicesSection";
 import TestimonialsSection from "@/components/homeComponents/TestimonialsSection";
 
@@ -13,13 +13,13 @@ export default function Home() {
     const interval = setInterval( () => {
       setIndex((prevIndex) => (prevIndex + 1) % palabras.length);
       
-    }, 3000) // Cambio cada 2 segundos
-    return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
+    }, 3000)
+    return () => clearInterval(interval); // Limpio el intervalo al desmontar el componente
   }, [])
 
   return (
     <>
-      {/* HERO CON PALABRAS ROTADORAS */}
+      {/* UN HERO CON PALABRAS EN MOVIMIENTO */}
       <section className="h-screen bg-gradient-to-br from-orange-300 to-orange-100 flex items-center justify-center px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* TEXTO */}
@@ -58,7 +58,7 @@ export default function Home() {
       <ServicesSection />
 
 
-      {/* Testimonios en Inglés y Español */}
+      {/* Testimonios en Ingles y Español */}
       <TestimonialsSection />
     </>
   )
