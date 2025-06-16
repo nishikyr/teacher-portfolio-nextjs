@@ -18,15 +18,15 @@ Bienvenido al repositorio del portafolio profesional desarrollado para una profe
 - Preparado para SEO y rendimiento web.
 
 ## 📂 Estructura del proyecto
-/
-├── app/ # Estructura de rutas con Next.js App Router
-├── components/
-│ ├── ui/ # Componentes reutilizables (botones, tarjetas, etc.)
-│ └── cliente/ # Componentes específicos para secciones del cliente
-├── public/ # Recursos estáticos
-├── styles/ # Archivos CSS globales
-├── data/ # Datos simulados (servicios, categorías, etc.)
-└── README.md
+* app/ Estructura de rutas con Next.js App Router
+* components/ Componentes organizados por contexto
+* ui/ Componentes reutilizables (botones, tarjetas, etc.)
+* cliente/ Componentes específicos para secciones del cliente
+* public/ Recursos estáticos (imágenes, íconos, etc.)
+* styles/ Archivos CSS globales y personalizados
+* data/ Datos simulados (servicios, categorías, artículos, etc.)
+README.md Documentación principal del proyecto
+
 
 
 ## 📦 Instalación local
